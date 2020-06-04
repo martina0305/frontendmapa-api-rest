@@ -1,4 +1,5 @@
-const baseUrl = 'http://localhost:3000/';
+//const baseUrl = 'http://localhost:3000/';
+const baseUrl = 'https://backmapa-api-rest.now.sh/';
 
 const apiHeaders = {
     'Content-Type': 'application/json',
