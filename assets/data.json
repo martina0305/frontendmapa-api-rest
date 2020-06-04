@@ -1,0 +1,226 @@
+[
+      {
+        "lat": -34.582505,
+        "lng": -58.417358,
+        "name": "Jardin Botánico",
+        "img": "assets/img/1.jpg",
+        "description": "Fotografía naturaleza",
+        "type": "naturaleza"
+      },
+      {
+        "lat": -34.463289,
+        "lng": -58.496926,
+        "name": "Costa San Isidro",
+        "img": "assets/img/2.jpg",
+        "description": "Fotografía naturaleza",
+        "type": "naturaleza"
+      },
+      {
+        "lat": -34.670046,
+        "lng": -58.655097,
+        "name": "Reserva Natural Morón",
+        "img": "assets/img/3.jpg",
+        "description": "Fotografía naturaleza",
+        "type": "naturaleza"
+      },
+      {
+        "lat": -34.569968,
+        "lng": -58.417586,
+        "name": "Pérgola del lago",
+        "img": "assets/img/4.jpg",
+        "description": "fotografía natural",
+        "type": "natural"
+      },
+      {
+        "lat": -34.589202,
+        "lng": -58.433057,
+        "name": "Fu-king Bar",
+        "img": "assets/img/5.jpg",
+        "description": "Fotografía neón",
+        "type": "neon"
+      },
+      {
+        "lat": -34.586913,
+        "lng": -58.432468,
+        "name": "Burguertify",
+        "img": "assets/img/6.jpg",
+        "description": "Fotografía neon",
+        "type": "neon"
+      },
+      {
+        "lat": -34.570669,
+        "lng": -58.421905,
+        "name": "Komyun",
+        "img": "assets/img/7.jpg",
+        "description": "Fotografía neon",
+        "type": "neon"
+      },
+      {
+        "lat": -34.589344,
+        "lng": -58.427180,
+        "name": "Jazmín Chebar",
+        "img": "assets/img/8.jpg",
+        "description": "Fotografía neon",
+        "type": "neon"
+      },
+      {
+        "lat": -34.619488,
+        "lng": -58.372820,
+        "name": "Mercado de San Telmo",
+        "img": "assets/img/9.png",
+        "description": "Fotografía vintage",
+        "type": "vintage"
+      },
+      {
+        "lat": -34.586809,
+        "lng": -58.403684,
+        "name": "Pasaje Bollini",
+        "img": "assets/img/10.jpg",
+        "description": "Fotografía vintage",
+        "type": "vintage"
+      },
+      {
+        "lat": -34.590215,
+        "lng": -58.429783,
+        "name": "Tealosophy",
+        "img": "assets/img/11.jpg",
+        "description": "Fotografía vintage",
+        "type": "vintage"
+      },
+      {
+        "lat": -34.579183,
+        "lng": -58.398972,
+        "name": "Little London",
+        "img": "assets/img/12.jpg",
+        "description": "Fotografía vintage",
+        "type": "vintage"
+      },
+      {
+        "lat": -34.471810,
+        "lng": -58.513830,
+        "name": "Estación San Isidro",
+        "img": "assets/img/133.jpg",
+        "description": "Fotografía vintage",
+        "type": "vintage"
+      },
+      {
+        "lat": -34.614768,
+        "lng": -58.371567,
+        "name": "calle mexico",
+        "img": "assets/img/13.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.550771,
+        "lng": -58.438646,
+        "name": "Converse skateplaza",
+        "img": "assets/img/14.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.607643,
+        "lng": -58.363286,
+        "name": "Cilos puerto madero",
+        "img": "assets/img/15.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.589342,
+        "lng": -58.365792,
+        "name": "Puerto de Buenos Aires",
+        "img": "assets/img/16.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.603619,
+        "lng": -58.383774,
+        "name": "Kentucky",
+        "img": "assets/img/22.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.581226,
+        "lng": -58.421564,
+        "name": "Subte D",
+        "img": "assets/img/17.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.577966,
+        "lng": -58.426625,
+        "name": "Metrobus palermo",
+        "img": "assets/img/18.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.843775,
+        "lng": -58.180189,
+        "name": "Parque Pereyra",
+        "img": "assets/img/24.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.787560,
+        "lng": -58.612033,
+        "name": "Campanópolis",
+        "img": "assets/img/23.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.637104,
+        "lng": -58.373330,
+        "name": "Iglesia Santa Felicitas",
+        "img": "assets/img/30.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.558574,
+        "lng": -58.449404,
+        "name": "Belgrano C.",
+        "img": "assets/img/25.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.582801,
+        "lng": -58.392073,
+        "name": "UBA Derecho Techos",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.832192,
+        "lng": -58.596081,
+        "name": "Casona abandonada",
+        "img": "assets/img/26.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.596065,
+        "lng": -58.394321,
+        "name": "Ateneo Grand Splendid",
+        "img": "assets/img/27.png",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      },
+      {
+        "lat": -34.543301,
+        "lng": -58.500659,
+        "name": "Trenes abandonados",
+        "img": "assets/img/200.jpg",
+        "description": "fotografía urbana",
+        "type": "urbano"
+      }
+]
+

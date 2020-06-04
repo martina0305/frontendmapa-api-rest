@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="inner">
+            <div id="form_wrapper">
+                <form id="form_main">
+                    <input id="form_field_lat" type="text" name="lat">
+                    <input id="form_field_lng" type="text" name="lng">
+                    <input id="form_field_name" type="text" name="name">
+                    <input id="form_field_description" type="text" name="description">
+                    <input id="form_field_type" type="text" name="type">
+                    <input id="form_field_id" type="hidden" name="type">
+                    <button class="form_submit" class="btn azul" type="submit">Enviar</button>
+                </form>
+            </div>
+            <div id="btn_agregar_wrapper">
+                <a href="#" class="btn azul">Agregar</a>
+            </div>
+            <div id="listado">
+                <p>Cargando</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./utils/api.js"></script>
+    <script src="./assets/admin.js"></script>
+</body>
+
+</html>
