@@ -1,6 +1,15 @@
 const styles = [
     {
         "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.land_parcel",
         "elementType": "all",
         "stylers": [
             {
@@ -13,22 +22,58 @@ const styles = [
         "elementType": "all",
         "stylers": [
             {
-                "visibility": "simplified"
-            },
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "all",
+        "stylers": [
             {
-                "hue": "#0066ff"
-            },
-            {
-                "saturation": 74
-            },
-            {
-                "lightness": 100
+                "visibility": "off"
             }
         ]
     },
     {
         "featureType": "poi",
         "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#052366"
+            },
+            {
+                "saturation": "-70"
+            },
+            {
+                "lightness": "85"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "lightness": "-53"
+            },
+            {
+                "weight": "1.00"
+            },
+            {
+                "gamma": "0.98"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
         "stylers": [
             {
                 "visibility": "simplified"
@@ -40,31 +85,37 @@ const styles = [
         "elementType": "all",
         "stylers": [
             {
-                "visibility": "simplified"
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "saturation": "-18"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
             }
         ]
     },
     {
         "featureType": "road.highway",
         "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "off"
-            },
-            {
-                "weight": 0.6
-            },
-            {
-                "saturation": -85
-            },
-            {
-                "lightness": 61
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry",
         "stylers": [
             {
                 "visibility": "on"
@@ -74,6 +125,15 @@ const styles = [
     {
         "featureType": "road.arterial",
         "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
         "stylers": [
             {
                 "visibility": "off"
@@ -94,7 +154,7 @@ const styles = [
         "elementType": "all",
         "stylers": [
             {
-                "visibility": "simplified"
+                "visibility": "off"
             }
         ]
     },
@@ -103,16 +163,10 @@ const styles = [
         "elementType": "all",
         "stylers": [
             {
-                "visibility": "simplified"
+                "color": "#57677a"
             },
             {
-                "color": "#5f94ff"
-            },
-            {
-                "lightness": 26
-            },
-            {
-                "gamma": 5.86
+                "visibility": "on"
             }
         ]
     }
