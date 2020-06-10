@@ -38,7 +38,7 @@ const api = {
     },
     //UPDATE
     updatePlaces: async (formData,id) => {
-        const dataResponse = await fetch(baseUrl + 'place/' + id, fetchParams('PUT', formData));
+        const dataResponse = await fetch(baseUrl + 'places/' + id, fetchParams('PUT', formData));
         const dataInfo = await dataResponse.json();
         return dataInfo;
     },
