@@ -1,4 +1,4 @@
-[
+const styles = [
     {
         "featureType": "administrative",
         "elementType": "all",
