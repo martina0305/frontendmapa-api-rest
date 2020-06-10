@@ -99,10 +99,10 @@ const addMarker = (map, marker) => {
     });
 
     const icons = {
-        'neon': 'assets/img/bar.png',
-        'urbano': 'assets/img/building.png',
-        'natural': 'assets/img/hop.png',
-        'vintage': 'assets/img/tv.png'
+        'neon': 'assets/img/neon.png',
+        'urbano': 'assets/img/urban.png',
+        'natural': 'assets/img/nature.png',
+        'vintage': 'assets/img/vintage.png'
     }
 
     const markerItem = new google.maps.Marker({
