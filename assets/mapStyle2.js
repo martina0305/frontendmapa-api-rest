@@ -1,16 +1,61 @@
 const styles = [
     {
-        "featureType": "administrative",
-        "elementType": "labels.text.fill",
+        "featureType": "administrative.country",
+        "elementType": "geometry.stroke",
         "stylers": [
             {
-                "color": "#444444"
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.country",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "lightness": "-3"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.locality",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
             }
         ]
     },
     {
         "featureType": "administrative.land_parcel",
-        "elementType": "all",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -19,16 +64,7 @@ const styles = [
     },
     {
         "featureType": "landscape",
-        "elementType": "all",
-        "stylers": [
-            {
-                "color": "#f2f2f2"
-            }
-        ]
-    },
-    {
-        "featureType": "landscape.natural",
-        "elementType": "all",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -36,20 +72,65 @@ const styles = [
         ]
     },
     {
-        "featureType": "poi",
-        "elementType": "all",
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "saturation": "43"
+            },
+            {
+                "lightness": "100"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural",
+        "elementType": "geometry.fill",
         "stylers": [
             {
                 "visibility": "on"
             },
             {
-                "color": "#052366"
+                "color": "#e0efef"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.landcover",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "saturation": "70"
             },
             {
-                "saturation": "-70"
+                "lightness": "100"
             },
             {
-                "lightness": "85"
+                "gamma": "8.32"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.natural.terrain",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "lightness": "47"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "hue": "#1900ff"
+            },
+            {
+                "color": "#c0e8e8"
             }
         ]
     },
@@ -58,40 +139,7 @@ const styles = [
         "elementType": "labels",
         "stylers": [
             {
-                "visibility": "simplified"
-            },
-            {
-                "lightness": "-53"
-            },
-            {
-                "weight": "1.00"
-            },
-            {
-                "gamma": "0.98"
-            }
-        ]
-    },
-    {
-        "featureType": "poi",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "all",
-        "stylers": [
-            {
-                "saturation": -100
-            },
-            {
-                "lightness": 45
-            },
-            {
-                "visibility": "on"
+                "visibility": "off"
             }
         ]
     },
@@ -100,7 +148,10 @@ const styles = [
         "elementType": "geometry",
         "stylers": [
             {
-                "saturation": "-18"
+                "lightness": 100
+            },
+            {
+                "visibility": "simplified"
             }
         ]
     },
@@ -115,25 +166,7 @@ const styles = [
     },
     {
         "featureType": "road.highway",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "all",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road.arterial",
-        "elementType": "labels.icon",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -141,17 +174,47 @@ const styles = [
         ]
     },
     {
-        "featureType": "road.local",
-        "elementType": "all",
+        "featureType": "road.highway",
+        "elementType": "labels.text",
         "stylers": [
             {
-                "visibility": "on"
+                "visibility": "off"
             }
         ]
     },
     {
-        "featureType": "transit",
-        "elementType": "all",
+        "featureType": "road.highway",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 700
+            }
+        ]
+    },
+    {
+        "featureType": "transit.station",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -163,10 +226,7 @@ const styles = [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#57677a"
-            },
-            {
-                "visibility": "on"
+                "color": "#7dcdcd"
             }
         ]
     }
