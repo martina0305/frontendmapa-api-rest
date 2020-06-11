@@ -89,7 +89,7 @@ const fetchMarkers = async (map) => {
 const addMarker = (map, marker) => {
 
     console.log(marker)
-    const { lat, lng, name, type, description } = marker;
+    const { lat, lng, name, type, description, img } = marker;
     const contentString = `
     <div><h2>${name}</h2>
     <img src="${img}">
