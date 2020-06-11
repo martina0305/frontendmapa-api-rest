@@ -93,10 +93,10 @@ const addMarker = (map, marker) => {
     const contentString = `
     <div>
     <figure><img src="${img}">
-    <figcaption><h2>${name}</h2></figcaption>
+    <figcaption><h2>${name}</h2><h3>${type}</h3>
+    <p>${description}</p></figcaption>
     </figure>
-    <h3>${type}</h3>
-    <p>${description}</p></div>`;
+    </div>`;
     var infowindow = new google.maps.InfoWindow({
         content: contentString
     });
