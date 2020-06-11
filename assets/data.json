@@ -67,7 +67,7 @@
         "lat": -34.619488,
         "lng": -58.372820,
         "name": "Mercado de San Telmo",
-        "img": "assets/img/9.png",
+        "img": "assets/img/9.jpg",
         "description": "Fotografía vintage",
         "type": "vintage"
       },
@@ -131,7 +131,7 @@
         "lat": -34.589342,
         "lng": -58.365792,
         "name": "Puerto de Buenos Aires",
-        "img": "assets/img/16.png",
+        "img": "assets/img/16.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
@@ -163,7 +163,7 @@
         "lat": -34.843775,
         "lng": -58.180189,
         "name": "Parque Pereyra",
-        "img": "assets/img/24.png",
+        "img": "assets/img/24.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
@@ -179,7 +179,7 @@
         "lat": -34.637104,
         "lng": -58.373330,
         "name": "Iglesia Santa Felicitas",
-        "img": "assets/img/30.png",
+        "img": "assets/img/30.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
@@ -187,7 +187,7 @@
         "lat": -34.558574,
         "lng": -58.449404,
         "name": "Belgrano C.",
-        "img": "assets/img/25.png",
+        "img": "assets/img/25.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
@@ -202,7 +202,7 @@
         "lat": -34.832192,
         "lng": -58.596081,
         "name": "Casona abandonada",
-        "img": "assets/img/26.png",
+        "img": "assets/img/26.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
@@ -210,7 +210,7 @@
         "lat": -34.596065,
         "lng": -58.394321,
         "name": "Ateneo Grand Splendid",
-        "img": "assets/img/27.png",
+        "img": "assets/img/27.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
