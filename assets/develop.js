@@ -54,7 +54,7 @@ window.initMap = () => {
 
     //Agrego los markers filtrados según filtro (markerType)
     const addMarkerFiltered = (markerType) => {
-        console.log('clicked sth');
+        //console.log('clicked sth');
         markersAll.forEach((marker) => {
             //console.log(marker)
             marker.setMap(null); //Quita todos los markers del mapa

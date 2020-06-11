@@ -5,7 +5,7 @@
         "name": "Jardin Botánico",
         "img": "assets/img/1.jpg",
         "description": "Fotografía naturaleza",
-        "type": "naturaleza"
+        "type": "natural"
       },
       {
         "lat": -34.463289,
@@ -13,7 +13,7 @@
         "name": "Costa San Isidro",
         "img": "assets/img/2.jpg",
         "description": "Fotografía naturaleza",
-        "type": "naturaleza"
+        "type": "natural"
       },
       {
         "lat": -34.670046,
@@ -21,7 +21,7 @@
         "name": "Reserva Natural Morón",
         "img": "assets/img/3.jpg",
         "description": "Fotografía naturaleza",
-        "type": "naturaleza"
+        "type": "natural"
       },
       {
         "lat": -34.569968,
@@ -195,6 +195,7 @@
         "lat": -34.582801,
         "lng": -58.392073,
         "name": "UBA Derecho Techos",
+        "img": "assets/img/144.jpg",
         "description": "fotografía urbana",
         "type": "urbano"
       },
