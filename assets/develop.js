@@ -23,7 +23,7 @@ window.initMap = () => {
             }
         });
     // The marker, positioned at Uluru
-    const marker = new google.maps.Marker({ position: maimo, map: map });
+    //const marker = new google.maps.Marker({ position: maimo, map: map });
 
     fetchMarkers(map)
 
@@ -92,6 +92,7 @@ const addMarker = (map, marker) => {
     const { lat, lng, name, type, description } = marker;
     const contentString = `
     <div><h2>${name}</h2>
+    <img src="${img}">
     <h3>${type}</h3>
     <p>${description}</p></div>`;
     var infowindow = new google.maps.InfoWindow({
@@ -109,6 +110,7 @@ const addMarker = (map, marker) => {
         position: { lat: lat, lng: lng },
         map: map,
         icon: icons [type],
+        customInfo: type
     });
 
     markerItem.setMap(map);
