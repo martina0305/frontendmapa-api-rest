@@ -45,7 +45,7 @@ window.initMap = () => {
     })
     handleFilterHop.addEventListener('click', (e) => {
         e.preventDefault();
-        addMarkerFiltered('naturaleza')
+        addMarkerFiltered('natural')
     })
     handleFilterTv.addEventListener('click', (e) => {
         e.preventDefault();
